@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import MessageSend from './MessageSend';
-import MessageReceive from './MessageReceive';
+import MessageSend from './Conversation/MessageSend';
+import MessageReceive from './Conversation/MessageReceive';
 import '../App.css';
 
-class Conservation extends Component {
+class Conversation extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -103,4 +103,4 @@ class Conservation extends Component {
     }
 }
 
-export default Conservation;
+export default Conversation;
