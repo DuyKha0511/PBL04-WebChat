@@ -8,7 +8,7 @@ class Header extends Component {
         return (
             <div>
                 <div className="mb-1 navbar navbar-expand-sm navbar-bright lighten-1">
-                    <a className="navbar-brand " href="/#"><b className="nameApp">LetsChat</b></a>
+                    <a className="navbar-brand " href="window.location.reload()" ><b className="nameApp">LetsChat</b></a>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent-555">
                         {/* SearchUser */}
